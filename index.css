@@ -1,0 +1,231 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+:root
+{
+    --blue:#3FC7FF;
+    --green:#29B67F;
+}
+.nav-item .nav-link
+{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+.lop
+{
+    background-image: linear-gradient(to right,var(--blue),var(--green));
+    color: #000000;
+    position: relative;
+    top: 1.4rem;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 10px;    
+}
+.lop:hover
+{
+    padding:16px;
+}
+.mark
+{
+    color: var(--green);
+}
+.from
+{
+    display: block;
+}
+.from input
+{
+   
+    border: none;
+    width: 400px;
+    margin: 10px;
+    border-bottom: 2px solid rgb(143, 141, 141);
+    
+}
+
+.fo1
+{
+    padding: 0px 20px;
+    
+    
+}
+.fo1:hover
+{
+    background-image: linear-gradient(to bottom,var(--blue),var(--green));
+}
+.fo2
+{
+    padding: 0px 20px;
+    background-image: linear-gradient(to bottom,var(--blue),var(--green));
+    
+}
+.l1
+{
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+}
+.l1 a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+.md
+{
+    background-image: linear-gradient(to right,var(--blue),var(--green));
+}
+.md img
+{
+    border-radius: 50%;
+}
+.bc{
+    position: relative;
+    top: 10rem;
+    color: #fff;
+    font-weight: bolder;
+}
+.mh
+{
+    background-image: linear-gradient(to right,var(--blue),var(--green));
+   
+    position: relative;
+    top: 1.4rem;
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 10px;  
+
+}
+.mh:hover
+{
+    padding:10px 35px ;
+    letter-spacing: 2px;
+}
+.mc
+{
+    background: linear-gradient(to right,#090736,#172233
+    );
+    position: relative;
+    top: 2rem;
+}
+
+.hc
+{
+    position: relative;
+    top: 5rem;
+}
+.ha img
+{
+    width: 400px;
+}
+.hb
+{
+    position: relative;
+    top:1rem;
+    right:6.5rem;
+    z-index: 2;
+}
+.gc
+{
+  background-image: linear-gradient(to right,#000000,#2a6a8f);
+  position: relative;
+  top: 2rem;
+}
+.ja
+{
+    position: relative;
+    top: 2rem;
+}
+.ja a
+{
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+    font-size: 20px;
+}
+.oa
+{
+   background: #a5a6a7;    
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:5px 20px ;
+    border-radius: 10px; 
+}
+.oa:hover
+{
+    padding:5px 22px ;
+    letter-spacing: 1px;
+    color: #fff;
+    background-image: linear-gradient(to right,var(--blue),var(--green));
+}.ob
+{
+     background-image: linear-gradient(to right,var(--blue),var(--green));   
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding:5px 20px ;
+    border-radius: 10px; 
+}
+.ob:hover
+{
+    padding:5px 22px ;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.od
+{
+    position:absolute;
+   right:0rem;
+   top: 0px;
+}
+.hb img
+{
+    width: 350px;
+    margin-top: 2rem;
+}
+.oe
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   
+}
+.oe img
+{ width: 300px;
+
+}
+.of img
+{
+    width: 100px
+}
+.of
+{
+    position: absolute;
+    right: 50px;
+}
+.og
+{
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+}
+
+/* responsive */
+@media only screen and (min-width: 432px) {
+  
+   
+   .md 
+   {
+       color: #000;
+   }
+  }
+
